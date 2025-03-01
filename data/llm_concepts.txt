@@ -1,0 +1,49 @@
+# Large Language Models (LLMs)
+
+Large Language Models (LLMs) are advanced AI systems trained on vast amounts of text data to understand and generate human-like text.
+
+## Key Concepts
+
+### 1. Foundation Models
+
+Foundation models are large-scale models trained on broad data that can be adapted to a wide range of downstream tasks. Examples include GPT (Generative Pre-trained Transformer), LLaMA, and PaLM.
+
+### 2. Prompt Engineering
+
+Prompt engineering is the practice of designing effective inputs (prompts) to guide LLMs toward generating desired outputs. This involves crafting instructions, examples, and context to elicit the best possible responses.
+
+### 3. Fine-tuning
+
+Fine-tuning is the process of further training a pre-trained language model on a specific dataset to adapt it to particular tasks or domains. This allows the model to specialize while retaining its general capabilities.
+
+### 4. Context Window
+
+The context window refers to the amount of text an LLM can consider at once when generating a response. This limitation affects how much information the model can use to inform its outputs.
+
+### 5. Hallucinations
+
+Hallucinations occur when LLMs generate information that is factually incorrect or made up. This is a significant challenge in LLM applications, especially in contexts requiring factual accuracy.
+
+## LLM Limitations
+
+1. **Knowledge Cutoff**: LLMs have a training cutoff date, after which they don't have knowledge of events or developments.
+
+2. **Reasoning Limitations**: While LLMs can simulate reasoning, they may struggle with complex logical problems or mathematical calculations.
+
+3. **Contextual Understanding**: LLMs may miss nuances or misinterpret ambiguous queries due to limited contextual understanding.
+
+4. **Bias**: LLMs can reflect and amplify biases present in their training data, potentially producing biased or unfair outputs.
+
+## Enhancing LLMs
+
+### Retrieval-Augmented Generation (RAG)
+
+RAG systems enhance LLMs by retrieving relevant information from external knowledge sources before generating responses. This helps address knowledge limitations and reduce hallucinations.
+
+### Tool Use
+
+Modern LLM applications often integrate with external tools and APIs, allowing them to perform actions like searching the web, accessing databases, or running calculations.
+
+### Evaluation and Feedback
+
+Continuous evaluation and feedback mechanisms help improve LLM performance over time by identifying and addressing weaknesses in their outputs.

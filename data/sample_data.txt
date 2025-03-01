@@ -1,0 +1,32 @@
+# Chainlit Framework
+
+Chainlit is a Python framework for building conversational AI applications. It provides a user-friendly interface for interacting with language models and other AI components.
+
+## Key Features
+
+1. **Interactive UI**: Chainlit provides a chat-like interface out of the box, making it easy to build conversational applications.
+
+2. **Integration with LLMs**: It seamlessly integrates with popular language models and frameworks like OpenAI, LangChain, and more.
+
+3. **Message Elements**: Support for rich message elements like images, PDFs, and other file types.
+
+4. **Feedback Collection**: Built-in mechanisms for collecting user feedback.
+
+5. **Session Management**: Maintains user session state across interactions.
+
+## RAG (Retrieval-Augmented Generation)
+
+RAG combines retrieval-based methods with generative AI to enhance the quality and accuracy of responses.
+
+### How RAG Works
+
+1. **Indexing**: Documents are processed and indexed for efficient retrieval.
+2. **Retrieval**: When a query is received, relevant documents are retrieved from the index.
+3. **Generation**: The retrieved documents are used as context for the language model to generate a response.
+
+### Benefits of RAG
+
+- Improves accuracy by grounding responses in factual information
+- Reduces hallucinations common in pure generative models
+- Enables access to specific knowledge not present in the model's training data
+- Provides citations and references for generated information
